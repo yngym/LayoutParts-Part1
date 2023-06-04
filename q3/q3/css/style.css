@@ -1,1 +1,30 @@
 @charset "UTF-8";
+/* Q3 回答はここから */
+.table1{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  table-layout: fixed;
+  font-size: 18px;
+  text-align: center;
+}
+.table1 th{
+  line-height: 26px;
+  background-color: #319c4a;
+}
+.table1 tbody td{
+  line-height: 22px;
+}
+.table1 th,.table1 td {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+.table1 tbody tr{
+  background-color: #d5ffc7;
+}
+.table1 tbody tr:nth-child(2n){
+  background-color: #babcba;
+}
+.table1 tbody tr:last-child{
+  border-top: 1px double rgb(255,255,255);
+}

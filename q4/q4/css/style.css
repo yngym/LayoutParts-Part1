@@ -1,1 +1,49 @@
 @charset "UTF-8";
+.box1 ,.box3 {
+  width: 100%;
+  text-align: center;
+  display: table;
+}
+.box2{
+  empty-cells: hide;
+  height: 50px;
+}
+.a{
+  display: table-cell; 
+  background-color: #ff7b7b;
+  width: 300px;
+  padding: 20px;
+}
+.b{
+  display: table-cell; 
+  background-color: #7b86ff;
+  padding: 20px;
+}
+.c{
+  display: table-cell; 
+  background-color: #fff27b;
+  width: 300px;
+  padding: 20px;
+}
+.d{
+  display: table-cell; 
+  background-color: #7bff91;
+  padding: 20px;
+}
+.e{
+  display: table-cell; 
+  background-color: #ff7be2;
+  width: 400px;
+  padding: 20px;
+}
+.f{
+  display: table-cell; 
+  background-color: #ffc67b;
+  width: 400px;
+  padding: 20px;
+}
+.g{
+  display: table-cell; 
+  background-color: #7bf2ff;
+  padding: 20px;
+}

@@ -1,2 +1,31 @@
 @charset "UTF-8";
-/* 回答はここから */
+
+/* Q2 回答はここから */
+.box {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.box-1,.box-2,.box-3{
+  display: flex;
+}
+.box1,.box3 {
+  list-style: none;
+  background-color: #d2b48c;
+  outline: 10px solid #655;
+  box-shadow: 0 0 0 6px #655;
+  border-radius: 13px;
+  width: 200px;
+  padding: 10px;
+}
+
+.box2 {
+  list-style: none;
+  background-color: #d2b48c;
+  outline: 10px solid #655;
+  box-shadow: 0 0 0 6px #655;
+  border-radius: 13px;
+  width: 200px;
+  padding: 10px;
+  margin: 0px 60px 0px 60px;
+}
